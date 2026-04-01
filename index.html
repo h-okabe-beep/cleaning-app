@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>掃除当番管理</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <header class="header">
+      <div class="logo">
+         <span class="icon">✨</span>
+         <h1>Sparkle System</h1>
+      </div>
+      <div id="connection-status" class="status-indicator">● Connecting...</div>
+    </header>
+
+    <main class="main-content">
+      
+      <section class="duty-card glass-panel">
+        <h2 class="section-title">本日の当番</h2>
+        <div id="loading-duty" class="loader">情報を読み込み中...</div>
+        <div id="duty-names" class="duty-names hidden">
+          <div class="duty-person" id="duty-1">--</div>
+          <span class="ampersand">&amp;</span>
+          <div class="duty-person" id="duty-2">--</div>
+        </div>
+        <p class="subtitle" id="week-info">今週の担当ペアです</p>
+      </section>
+
+      <section class="tasks-section">
+        <h2 class="section-title">掃除チェックリスト</h2>
+        
+        <div id="tasks-container" class="tasks-list">
+          <div class="loader">リストを読み込み中...</div>
+          <!-- タスクはJSで動的に生成されます -->
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>Clean Desk, Clear Mind. ✨</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
