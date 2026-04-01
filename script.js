@@ -1,6 +1,6 @@
 // TODO: ここにGASで「ウェブアプリとしてデプロイ」したURLを上書きしてください
 // const GAS_API_URL = "https://script.google.com/macros/s/YOUR_API_ID/exec"; 
-const GAS_API_URL = "https://script.google.com/a/macros/kanei.co.jp/s/AKfycbyevemFE02fPtxkND8tfWLHYQumBZDPuxv3bhQ4QtRos3f9OlwI6Fsdc6gkBnDGshgy9Q/exec"; 
+const GAS_API_URL = "https://script.google.com/macros/s/AKfycbwQ553BL3TcNjCAcvZ4LiTjguX960VZBzgz5IMn4hAOUHIyU6lVIQkfYnAnBKYQkDh2/exec"; 
 
 // 状態管理
 let currentTasks = [];
